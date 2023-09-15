@@ -34776,9 +34776,13 @@ export const BattleMoveAnims: AnimTable = {
 // placeholder animations
 BattleMoveAnims['redhawk'] = {anim: BattleMoveAnims['firepunch'].anim};
 BattleMoveAnims['onigiri'] = {anim: BattleMoveAnims['shadowsneak'].anim};
+BattleMoveAnims['diablejambe'] = {anim: BattleMoveAnims['blazekick'].anim};
+BattleMoveAnims['scraaatch'] = {anim: BattleMoveAnims['psychic'].anim};
+BattleMoveAnims['firefist'] = {anim: BattleMoveAnims['firepunch'].anim};
 BattleMoveAnims['whiteout'] = {anim: BattleMoveAnims['whirlwind'].anim};
 BattleMoveAnims['sharkdarts'] = {anim: BattleMoveAnims['bulletseed'].anim};
 BattleMoveAnims['rokuogan'] = {anim: BattleMoveAnims['shadowpunch'].anim};
+BattleMoveAnims['hellhound'] = {anim: BattleMoveAnims['firepunch'].anim};
 
 BattleMoveAnims['torment'] = {anim: BattleMoveAnims['swagger'].anim};
 
