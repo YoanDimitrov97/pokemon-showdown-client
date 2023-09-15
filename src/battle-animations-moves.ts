@@ -34774,6 +34774,12 @@ export const BattleMoveAnims: AnimTable = {
 };
 
 // placeholder animations
+BattleMoveAnims['redhawk'] = {anim: BattleMoveAnims['firepunch'].anim};
+BattleMoveAnims['onigiri'] = {anim: BattleMoveAnims['shadowsneak'].anim};
+BattleMoveAnims['whiteout'] = {anim: BattleMoveAnims['whirlwind'].anim};
+BattleMoveAnims['sharkdarts'] = {anim: BattleMoveAnims['bulletseed'].anim};
+BattleMoveAnims['rokuogan'] = {anim: BattleMoveAnims['shadowpunch'].anim};
+
 BattleMoveAnims['torment'] = {anim: BattleMoveAnims['swagger'].anim};
 
 BattleMoveAnims['mefirst'] = {anim: BattleMoveAnims['mimic'].anim};

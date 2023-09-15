@@ -182,7 +182,7 @@ const Dex = new class implements ModdedDex {
 	resourcePrefix = (() => {
 		let prefix = '';
 		if (window.document?.location?.protocol !== 'http:') prefix = 'https:';
-		return `${prefix}//${window.Config ? Config.routes.client : 'https://github.com/YoanDimitrov97/pokemon-showdown-client/tree/main/'}/`;
+		return `${prefix}//${window.Config ? 'play.pokemon.autos' : 'https://github.com/YoanDimitrov97/pokemon-showdown-client'}/`;
 	})();
 
 	fxPrefix = (() => {
@@ -685,7 +685,7 @@ const Dex = new class implements ModdedDex {
 			num = BattlePokedex[id].num;
 		}
 		if (num < 0) num = 0;
-		if (num > 1010) num = 0;
+		if (num > 1050) num = 0;
 
 		if (window.BattlePokemonIconIndexes?.[id]) {
 			num = BattlePokemonIconIndexes[id];
@@ -785,7 +785,7 @@ const Dex = new class implements ModdedDex {
 		if (!pokemon) return '';
 		const data = this.getTeambuilderSpriteData(pokemon, gen);
 		const shiny = (data.shiny ? '-shiny' : '');
-		return 'background-image:url(' + Dex.resourcePrefix + data.spriteDir + shiny + '/' + data.spriteid + '.png);background-position:' + data.x + 'px ' + data.y + 'px;background-repeat:no-repeat';
+		return 'background-image:url(https://play.pokemon.autos/' + data.spriteDir + shiny + '/' + data.spriteid + '.png);background-position:' + data.x + 'px ' + data.y + 'px;background-repeat:no-repeat'; 
 	}
 
 	getItemIcon(item: any) {
