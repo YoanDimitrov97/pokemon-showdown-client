@@ -34777,12 +34777,21 @@ export const BattleMoveAnims: AnimTable = {
 BattleMoveAnims['redhawk'] = {anim: BattleMoveAnims['firepunch'].anim};
 BattleMoveAnims['onigiri'] = {anim: BattleMoveAnims['shadowsneak'].anim};
 BattleMoveAnims['diablejambe'] = {anim: BattleMoveAnims['blazekick'].anim};
+BattleMoveAnims['threenotchesslash'] = {anim: BattleMoveAnims['spiritshackle'].anim};
 BattleMoveAnims['scraaatch'] = {anim: BattleMoveAnims['psychic'].anim};
+BattleMoveAnims['room'] = {anim: BattleMoveAnims['trickroom'].anim};
+BattleMoveAnims['yoru'] = {anim: BattleMoveAnims['nightslash'].anim};
+BattleMoveAnims['raigou'] = {anim: BattleMoveAnims['zapcannon'].anim};
+BattleMoveAnims['honestyimpact'] = {anim: BattleMoveAnims['playrough'].anim};
 BattleMoveAnims['firefist'] = {anim: BattleMoveAnims['firepunch'].anim};
 BattleMoveAnims['whiteout'] = {anim: BattleMoveAnims['whirlwind'].anim};
 BattleMoveAnims['sharkdarts'] = {anim: BattleMoveAnims['bulletseed'].anim};
 BattleMoveAnims['rokuogan'] = {anim: BattleMoveAnims['shadowpunch'].anim};
+BattleMoveAnims['iceage'] = {anim: BattleMoveAnims['haze'].anim};
+BattleMoveAnims['yatanokagami'] = {anim: BattleMoveAnims['voltswitch'].anim};
 BattleMoveAnims['hellhound'] = {anim: BattleMoveAnims['firepunch'].anim};
+BattleMoveAnims['soulpocus'] = {anim: BattleMoveAnims['drainingkiss'].anim};
+BattleMoveAnims['thunderbagua'] = {anim: BattleMoveAnims['wildcharge'].anim};
 
 BattleMoveAnims['torment'] = {anim: BattleMoveAnims['swagger'].anim};
 
