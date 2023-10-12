@@ -34792,6 +34792,8 @@ BattleMoveAnims['yatanokagami'] = {anim: BattleMoveAnims['voltswitch'].anim};
 BattleMoveAnims['hellhound'] = {anim: BattleMoveAnims['firepunch'].anim};
 BattleMoveAnims['soulpocus'] = {anim: BattleMoveAnims['drainingkiss'].anim};
 BattleMoveAnims['thunderbagua'] = {anim: BattleMoveAnims['wildcharge'].anim};
+BattleMoveAnims['gravitymeteor'] = {anim: BattleMoveAnims['dracometeor'].anim};
+BattleMoveAnims['ursusshock'] = {anim: BattleMoveAnims['trickroom'].anim};
 
 BattleMoveAnims['torment'] = {anim: BattleMoveAnims['swagger'].anim};
 
